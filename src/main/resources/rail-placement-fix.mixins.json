@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "no2.railplacementfix.mixin",
+  "mixins": [
+    "BaseRailBlockMixin",
+    "RailStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixinextras": {
+    "minVersion": "0.5.3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "rail-placement-fix",
+	"version": "${version}",
+	"name": "Rail Placement Fix",
+	"description": "Rail Placement Fix allows you to place rails more precisely. By sneaking and looking at the corner of a block, you can place curved rails or place sloped rails like a top-side slab. This mod makes placing rails intuitive and enables you to create any rail pattern you like.",
+	"authors": [
+		"2No2Name"
+	],
+	"contact": {
+		"homepage": "https://github.com/2No2Name/rail-placement-fix",
+		"sources": "https://github.com/2No2Name/rail-placement-fix"
+	},
+	"icon": "assets/rail-placement-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"no2.railplacementfix.RailPlacementFix"
+		]
+	},
+	"mixins": [
+		"rail-placement-fix.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=26.3",
+		"fabricloader": ">=0.19.5"
+	}
+}
